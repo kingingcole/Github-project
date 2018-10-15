@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+body{
+  margin: 0;
+  width: 100%;
+  font-family: 'Krub', sans-serif;
+  color: white
+}
+header{
+  background: url(https://assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg),#2b3137 ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding:0;
+  overflow: hidden;
+}
+.nav-bar{
+  background-color: #24292e
+}
+.nav-bar .row{
+  margin: 10px auto;
+
+}
+.logo{
+  color: white;
+  font-size: 2.1em;
+  float: left;
+  display: inline-block;
+  width: 50px !important;
+  margin: 5px 0
+}
+a{
+  color:white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.menu-list-1 ul li{
+  display: inline-block;
+  width: auto;
+  margin: 15px 10px;
+  font-size: 1em
+}
+.menu-list-1 ul li:hover{
+  color: hsla(0,0%,100%,0.6)
+}
+.menu-list-2 ul{
+  margin-left: 20px
+}
+.menu-list-2 ul li{
+  width: auto;
+  display: inline-block;
+  margin: 10px 10px;
+}
+li input#search{
+  width: 160%;
+  background: #555;
+  color: #white;
+  height: 30px;
+  margin-top: auto;
+  border: none;
+  border-radius: 3px;
+  transition: background 0.2s
+}
+li input#search:focus{
+  background: white
+}
+li input::placeholder{
+  font-size: 0.9em;
+  color: #a3a3a3 !important
+}
+.user-actions{
+  margin-left:100px;
+  margin-right: 0;
+  width: 100%;
+  display: inline;
+  text-align: right;
+  cursor: pointer;
+}
+span{
+  color: gray;
+  cursor: default;
+}
+section.hero{
+  height: auto;
+  margin: auto;
+  padding: 5% 0
+}
+form{
+  background: white;
+  color: gray;
+  height: auto;
+  margin: auto 0px;
+  padding: 20px;
+  width: 332px;
+  margin-left:  40px;
+  border-radius: 3px;
+  font-size: 0.9em
+}
+form div{
+  margin: 10px 0
+}
+form input{
+  margin: 10px auto;
+  height: 2.8em;
+  border-radius: 2px;
+  border: 1px solid lightgray;
+}
+form p{
+  font-size: 0.9em;
+  color: #888
+}
+.sign-up-btn{
+  background-color: #2ebc4f;
+  margin-top: 15px;
+  border-radius: 3px
+}
+.sign-up-btn p{
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: bold
+}
+.t-and-c p{
+  text-align: center
+}
+.t-and-c span{
+  color: #0366d6
+}
+.hero-text{
+  margin-top: 20%;
+}
+.hero-text h1{
+  font-size: 64px;
+  font-weight: 100;
+  margin: 20px 0
+}
+.hero-text h6{
+  font-size: 21px;
+  font-weight: 100;
+  line-height: 1.6em;
+  color: hsla(0,0%,100%,0.6)
+}
+.hero-text h6 span{
+  color: white;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+.hero-text h6 span:hover{
+  border-bottom: 1px solid white;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: lightgray;
+  font-size: 1.2em;
+  padding: 10px
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: lightgray;
+  padding: 10px
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: lightgray;
+  padding: 10px
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: lightgray;
+  padding: 10px
+}
+
+
+/*FRAMEWORKS*/
+
+.wrapper{
+  width: 1000px;
+  margin: auto;
+  display: flex; flex-wrap: nowrap;
+}
+.row{
+  width: 100%;
+  display: flex; flex-wrap: nowrap
+}
+.col-1{
+  width: 8.33%
+}
+.col-8{
+  width: 66.66%;
+  display: flex; flex-wrap: nowrap;
+}
+.col-4{
+  width: 33.33%;
+  display: flex; flex-wrap: nowrap;
+}
+.col-11{
+  width: 91.66%;
+  display: flex; flex-wrap: nowrap;
+}
+.col-6{
+  width: 50%
+}
