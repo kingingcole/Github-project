@@ -7,7 +7,7 @@ body{
   margin: 0;
   width: 100%;
   font-family: 'Krub', sans-serif;
-  color: white
+  color: #efefef
 }
 header{
   background: url(https://assets-cdn.github.com/images/modules/site/heroes/simple-codelines.svg),#2b3137 ;
@@ -118,7 +118,12 @@ form p{
 .sign-up-btn{
   background-color: #2ebc4f;
   margin-top: 15px;
-  border-radius: 3px
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s
+}
+.sign-up-btn:hover{
+  background-color: #1d831f
 }
 .sign-up-btn p{
   text-align: center;
@@ -176,30 +181,5 @@ form p{
 
 /*FRAMEWORKS*/
 
-.wrapper{
-  width: 1000px;
-  margin: auto;
-  display: flex; flex-wrap: nowrap;
-}
-.row{
-  width: 100%;
-  display: flex; flex-wrap: nowrap
-}
-.col-1{
-  width: 8.33%
-}
-.col-8{
-  width: 66.66%;
-  display: flex; flex-wrap: nowrap;
-}
-.col-4{
-  width: 33.33%;
-  display: flex; flex-wrap: nowrap;
-}
-.col-11{
-  width: 91.66%;
-  display: flex; flex-wrap: nowrap;
-}
-.col-6{
-  width: 50%
-}
+/*UPDATE*/
+/*frameworks moved to new file frameworks.css/*
